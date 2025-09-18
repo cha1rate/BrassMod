@@ -43,3 +43,6 @@ local.properties
 
 # Data generator
 run-data/
+
+# Cache
+.cache/
