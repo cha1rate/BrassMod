@@ -1,6 +1,7 @@
 package com.cha1rate.brassmod;
 
 import com.cha1rate.brassmod.registry.BrassItems;
+import com.cha1rate.brassmod.registry.BrassTabs;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +31,7 @@ public class BrassMod {
 
         // レジストリをイベントバスに登録
         BrassItems.register(modEventBus);
+        BrassTabs.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
