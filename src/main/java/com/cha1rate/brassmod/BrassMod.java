@@ -1,5 +1,6 @@
 package com.cha1rate.brassmod;
 
+import com.cha1rate.brassmod.registry.BrassBlocks;
 import com.cha1rate.brassmod.registry.BrassItems;
 import com.cha1rate.brassmod.registry.BrassTabs;
 import com.mojang.logging.LogUtils;
@@ -31,6 +32,7 @@ public class BrassMod {
 
         // レジストリをイベントバスに登録
         BrassItems.register(modEventBus);
+        BrassBlocks.register(modEventBus);
         BrassTabs.register(modEventBus);
     }
 
