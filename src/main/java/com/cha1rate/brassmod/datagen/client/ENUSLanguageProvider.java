@@ -21,6 +21,8 @@ public class ENUSLanguageProvider extends LanguageProvider {
         addItem(BrassItems.EUPHONIUM, "Euphonium");
         addItem(BrassItems.TUBA, "Tuba");
         addBlock(BrassBlocks.MUSIC_STAND, "Music Stand");
+        addItem(BrassItems.SILVER_BRASS_INGOT, "Silver Brass Ingot");
+        addItem(BrassItems.GOLD_BRASS_INGOT, "Gold Brass Ingot");
 
         add("creativetabs.brass_tab","Brass");
     }

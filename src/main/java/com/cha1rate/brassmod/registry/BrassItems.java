@@ -24,6 +24,11 @@ public class BrassItems {
     public static final RegistryObject<Item> TUBA = ITEMS.register("tuba",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SILVER_BRASS_INGOT = ITEMS.register("silver_brass_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLD_BRASS_INGOT = ITEMS.register("gold_brass_ingot",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

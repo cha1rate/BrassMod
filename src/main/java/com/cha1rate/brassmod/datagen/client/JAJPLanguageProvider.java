@@ -21,6 +21,8 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(BrassItems.EUPHONIUM, "ユーフォニアム");
         addItem(BrassItems.TUBA, "テューバ");
         addBlock(BrassBlocks.MUSIC_STAND, "譜面台");
+        addItem(BrassItems.SILVER_BRASS_INGOT, "銀の真鍮インゴット");
+        addItem(BrassItems.GOLD_BRASS_INGOT, "金の真鍮インゴット");
 
         add("creativetabs.brass_tab","ブラス");
     }

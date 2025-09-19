@@ -23,6 +23,11 @@ public class BrassTabs {
                         pOutput.accept(BrassItems.HORN.get());
                         pOutput.accept(BrassItems.EUPHONIUM.get());
                         pOutput.accept(BrassItems.TUBA.get());
+
+                        pOutput.accept(BrassBlocks.MUSIC_STAND.get());
+
+                        pOutput.accept(BrassItems.SILVER_BRASS_INGOT.get());
+                        pOutput.accept(BrassItems.GOLD_BRASS_INGOT.get());
                     })
                     .build());
 
