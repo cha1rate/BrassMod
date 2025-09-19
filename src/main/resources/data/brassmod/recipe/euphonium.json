@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ss",
+    " s ",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "brassmod:silver_brass_ingot"
+    }
+  },
+  "result": {
+    "id": "brassmod:euphonium",
+    "count": 1
+  }
+}

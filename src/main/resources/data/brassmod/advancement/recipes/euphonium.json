@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "has_silver_brass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "brassmod:silver_brass_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_silver_brass"]
+  ],
+  "rewards": {
+    "recipes": [
+      "brassmod:euphonium"
+    ]
+  }
+}

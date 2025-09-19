@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    " g ",
+    "ggg"
+  ],
+  "key": {
+    "g": {
+      "item": "brassmod:gold_brass_ingot"
+    }
+  },
+  "result": {
+    "id": "brassmod:tuba",
+    "count": 1
+  }
+}

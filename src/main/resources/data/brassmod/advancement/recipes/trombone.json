@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "has_gold_brass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "brassmod:gold_brass_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_gold_brass"]
+  ],
+  "rewards": {
+    "recipes": [
+      "brassmod:trombone"
+    ]
+  }
+}

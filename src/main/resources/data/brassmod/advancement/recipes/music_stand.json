@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "has_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    },
+    "has_iron_bars": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_bars"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_iron"],
+    ["has_iron_bars"]
+  ],
+  "rewards": {
+    "recipes": [
+      "brassmod:music_stand"
+    ]
+  }
+}
