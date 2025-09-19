@@ -1,6 +1,7 @@
 package com.cha1rate.brassmod.datagen.client;
 
 import com.cha1rate.brassmod.BrassMod;
+import com.cha1rate.brassmod.registry.BrassBlocks;
 import com.cha1rate.brassmod.registry.BrassItems;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.LanguageProvider;
@@ -14,11 +15,12 @@ public class ENUSLanguageProvider extends LanguageProvider {
 
     @Override
     protected void addTranslations() {
-        addItem(BrassItems.TRUMPET, "trumpet");
-        addItem(BrassItems.TROMBONE, "trombone");
-        addItem(BrassItems.HORN, "horn");
-        addItem(BrassItems.EUPHONIUM, "euphonium");
-        addItem(BrassItems.TUBA, "tuba");
+        addItem(BrassItems.TRUMPET, "Trumpet");
+        addItem(BrassItems.TROMBONE, "Trombone");
+        addItem(BrassItems.HORN, "Horn");
+        addItem(BrassItems.EUPHONIUM, "Euphonium");
+        addItem(BrassItems.TUBA, "Tuba");
+        addBlock(BrassBlocks.MUSIC_STAND, "Music Stand");
 
         add("creativetabs.brass_tab","Brass");
     }

@@ -1,8 +1,9 @@
 {
+  "block.brassmod.music_stand": "Music Stand",
   "creativetabs.brass_tab": "Brass",
-  "item.brassmod.euphonium": "euphonium",
-  "item.brassmod.horn": "horn",
-  "item.brassmod.trombone": "trombone",
-  "item.brassmod.trumpet": "trumpet",
-  "item.brassmod.tuba": "tuba"
+  "item.brassmod.euphonium": "Euphonium",
+  "item.brassmod.horn": "Horn",
+  "item.brassmod.trombone": "Trombone",
+  "item.brassmod.trumpet": "Trumpet",
+  "item.brassmod.tuba": "Tuba"
 }

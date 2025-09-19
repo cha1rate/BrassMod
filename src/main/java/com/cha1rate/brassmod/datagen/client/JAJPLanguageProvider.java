@@ -1,6 +1,7 @@
 package com.cha1rate.brassmod.datagen.client;
 
 import com.cha1rate.brassmod.BrassMod;
+import com.cha1rate.brassmod.registry.BrassBlocks;
 import com.cha1rate.brassmod.registry.BrassItems;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.LanguageProvider;
@@ -19,6 +20,7 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(BrassItems.HORN, "ホルン");
         addItem(BrassItems.EUPHONIUM, "ユーフォニアム");
         addItem(BrassItems.TUBA, "テューバ");
+        addBlock(BrassBlocks.MUSIC_STAND, "譜面台");
 
         add("creativetabs.brass_tab","ブラス");
     }

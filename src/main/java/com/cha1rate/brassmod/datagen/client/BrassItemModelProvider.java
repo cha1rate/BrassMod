@@ -13,10 +13,10 @@ public class BrassItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        basicItem(BrassItems.TRUMPET.get());
-        basicItem(BrassItems.TROMBONE.get());
-        basicItem(BrassItems.HORN.get());
-        basicItem(BrassItems.EUPHONIUM.get());
-        basicItem(BrassItems.TUBA.get());
+//        basicItem(BrassItems.TRUMPET.get());
+//        basicItem(BrassItems.TROMBONE.get());
+//        basicItem(BrassItems.HORN.get());
+//        basicItem(BrassItems.EUPHONIUM.get());
+//        basicItem(BrassItems.TUBA.get());
     }
 }

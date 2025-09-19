@@ -1,6 +1,7 @@
 package com.cha1rate.brassmod.datagen.client;
 
 import com.cha1rate.brassmod.BrassMod;
+import com.cha1rate.brassmod.registry.BrassBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -14,8 +15,7 @@ public class BrassBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-//        simpleBlockWithItem(BrassBlocks.HOGE.get(), cubeAll(BrassBlocks.HOGE.get()));
-//        simpleBlockWithItem(BrassBlocks.Hoge)
+//        simpleBlockWithItem(BrassBlocks.MUSIC_STAND);
     }
 
     private void simpleBlockWithItem(RegistryObject<Block> block) {

@@ -27,7 +27,7 @@ public class BrassDataGenerator {
         // アイテムモデル
         generator.addProvider(event.includeClient(), new BrassItemModelProvider(packOutput, existingFileHelper));
         // ブロックモデル
-        // generator.addProvider(event.includeClient(), new BrassBlockStateProvider(packOutput, existingFileHelper));
+        generator.addProvider(event.includeClient(), new BrassBlockStateProvider(packOutput, existingFileHelper));
         // 言語ファイル
         generator.addProvider(event.includeClient(), new JAJPLanguageProvider(packOutput));
         generator.addProvider(event.includeClient(), new ENUSLanguageProvider(packOutput));
