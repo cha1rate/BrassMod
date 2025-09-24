@@ -1,6 +1,7 @@
 package com.cha1rate.brassmod.registry;
 
 import com.cha1rate.brassmod.BrassMod;
+import com.cha1rate.brassmod.block.MusicStandBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -21,10 +22,12 @@ public class BrassBlocks {
 
     // ブロックを作成&レジストリに追加
     public static final RegistryObject<Block> MUSIC_STAND = registerBlockWithItem("music_stand",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(0.5f)
+            () -> new MusicStandBlock(BlockBehaviour.Properties.of()
+                    .strength(1.0f, 0.5f)
                     .noOcclusion()
-                    .sound(SoundType.STEM)));
+                    .noCollission()
+                    .sound(SoundType.CHAIN)
+    ));
 
     // ブロック&アイテムを作成
     public static <T extends Block> RegistryObject<T> registerBlockWithItem(String name, Supplier<T> supplier) {

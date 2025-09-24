@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
-      "model": "brassmod:block/music_stand"
-    }
+    "facing=north,level=default":   { "model": "brassmod:block/music_stand",   "y": 0 },
+    "facing=north,level=red":{ "model": "brassmod:block/music_stand_red","y": 0 },
+    "facing=north,level=blue":  { "model": "brassmod:block/music_stand_blue",  "y": 0 },
+
+    "facing=east,level=default":    { "model": "brassmod:block/music_stand",   "y": 90 },
+    "facing=east,level=red": { "model": "brassmod:block/music_stand_red","y": 90 },
+    "facing=east,level=blue":   { "model": "brassmod:block/music_stand_blue",  "y": 90 },
+
+    "facing=south,level=default":   { "model": "brassmod:block/music_stand",   "y": 180 },
+    "facing=south,level=red":{ "model": "brassmod:block/music_stand_red","y": 180 },
+    "facing=south,level=blue":  { "model": "brassmod:block/music_stand_blue",  "y": 180 },
+
+    "facing=west,level=default":    { "model": "brassmod:block/music_stand",   "y": 270 },
+    "facing=west,level=red": { "model": "brassmod:block/music_stand_red","y": 270 },
+    "facing=west,level=blue":   { "model": "brassmod:block/music_stand_blue",  "y": 270 }
   }
 }
